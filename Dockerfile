@@ -2,7 +2,7 @@
 FROM tensorflow/serving
 
 # Set the model name and version
-ENV MODEL_NAME iris-classifier
+ENV MODEL_NAME model1
 ENV MODEL_VERSION 1
 
 # Copy the model files into the container
